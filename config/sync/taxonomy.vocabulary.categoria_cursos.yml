@@ -1,0 +1,9 @@
+uuid: 515b5e89-b93c-43be-9d75-b5f5e6a23d5d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Categoria Cursos'
+vid: categoria_cursos
+description: 'Categoría de los cursos'
+hierarchy: 0
+weight: 5

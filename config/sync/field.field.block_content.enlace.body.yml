@@ -1,0 +1,22 @@
+uuid: 02a48ec1-b16a-406c-9463-e9098fddccbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.enlace
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.enlace.body
+field_name: body
+entity_type: block_content
+bundle: enlace
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: c800797f-4ccf-4252-bc03-7aa604b73241
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cursos_recientes
+    - field.field.block_content.cursos_recientes.body
+  module:
+    - text
+id: block_content.cursos_recientes.default
+targetEntityType: block_content
+bundle: cursos_recientes
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

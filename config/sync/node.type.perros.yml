@@ -1,0 +1,18 @@
+uuid: 94402a6b-07b6-4c8f-a6d5-52b3c5d89e29
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Informacion mascota'
+type: perros
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

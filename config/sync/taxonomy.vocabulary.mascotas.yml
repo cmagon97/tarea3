@@ -1,0 +1,9 @@
+uuid: b8bd784e-3171-4cfc-9d3a-9544bc3bd9c8
+langcode: en
+status: true
+dependencies: {  }
+name: Mascotas
+vid: mascotas
+description: ''
+hierarchy: 0
+weight: 0

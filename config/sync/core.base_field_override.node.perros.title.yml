@@ -1,0 +1,18 @@
+uuid: fbd8fe43-d9c5-426f-91f8-98594d30c517
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.perros
+id: node.perros.title
+field_name: title
+entity_type: node
+bundle: perros
+label: 'Información de Mascotas'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

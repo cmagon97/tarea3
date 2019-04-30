@@ -1,0 +1,39 @@
+uuid: e066852e-9bc9-49ca-ae32-8c60677e26cc
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:enlace:bd52a20f-e93d-44bf-90f2-f9d04d147e71'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - bartik
+id: losmejoresgatos
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:bd52a20f-e93d-44bf-90f2-f9d04d147e71'
+settings:
+  id: 'block_content:bd52a20f-e93d-44bf-90f2-f9d04d147e71'
+  label: 'Los mejores gatos'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      perros: perros
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /
+    negate: false
+    context_mapping: {  }

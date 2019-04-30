@@ -1,0 +1,31 @@
+uuid: 55560d08-630d-4a59-b202-0c42b7852c80
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:enlace:e26bdad7-1291-4576-b71f-6742e74a2bec'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: toppaginas
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:e26bdad7-1291-4576-b71f-6742e74a2bec'
+settings:
+  id: 'block_content:e26bdad7-1291-4576-b71f-6742e74a2bec'
+  label: 'Top paginas'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

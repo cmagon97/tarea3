@@ -1,0 +1,29 @@
+uuid: e8a05680-ce39-4970-9fb5-65785d691c5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_de_mascota
+    - node.type.perros
+    - taxonomy.vocabulary.mascotas
+id: node.perros.field_tipo_de_mascota
+field_name: field_tipo_de_mascota
+entity_type: node
+bundle: perros
+label: 'Tipo de mascota'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mascotas: mascotas
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

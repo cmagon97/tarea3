@@ -1,0 +1,43 @@
+uuid: d0893eec-846e-4d02-80ad-a5c1d7d11c01
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.perros.body
+    - field.field.node.perros.field_imagen_de_perro
+    - field.field.node.perros.field_tipo_de_mascota
+    - image.style.thumbnail
+    - node.type.perros
+  module:
+    - image
+    - user
+id: node.perros.teaser
+targetEntityType: node
+bundle: perros
+mode: teaser
+content:
+  field_imagen_de_perro:
+    type: image
+    weight: 2
+    region: content
+    label: above
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+  field_tipo_de_mascota:
+    type: entity_reference_label
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true

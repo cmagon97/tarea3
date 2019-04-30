@@ -1,0 +1,59 @@
+uuid: addee7a8-fe2a-4974-9109-2010d4b1fa3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.perros.body
+    - field.field.node.perros.field_imagen_de_perro
+    - field.field.node.perros.field_tipo_de_mascota
+    - image.style.thumbnail
+    - node.type.perros
+  module:
+    - image
+    - text
+id: node.perros.default
+targetEntityType: node
+bundle: perros
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_imagen_de_perro:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_tipo_de_mascota:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

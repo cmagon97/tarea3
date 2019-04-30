@@ -1,0 +1,23 @@
+uuid: a77af0cd-dada-4a78-9bea-ed52b6d25a32
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.enlace
+    - field.storage.block_content.field_enlace
+  module:
+    - link
+id: block_content.enlace.field_enlace
+field_name: field_enlace
+entity_type: block_content
+bundle: enlace
+label: enlace
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

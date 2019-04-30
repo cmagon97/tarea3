@@ -1,0 +1,22 @@
+uuid: ed4515de-54fe-44f2-ad60-691d3f192cc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.perros
+  module:
+    - text
+id: node.perros.body
+field_name: body
+entity_type: node
+bundle: perros
+label: 'Descripción de la mascota'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
