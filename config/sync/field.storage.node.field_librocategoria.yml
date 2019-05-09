@@ -1,0 +1,20 @@
+uuid: 228160ba-b509-4aff-8b5d-0e5a571453b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_librocategoria
+field_name: field_librocategoria
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

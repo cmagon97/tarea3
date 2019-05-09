@@ -1,0 +1,9 @@
+uuid: f00d0eef-07d4-4bf4-b057-8216d8222ca9
+langcode: en
+status: true
+dependencies: {  }
+name: Editorial
+vid: editorial
+description: ''
+hierarchy: 0
+weight: 0

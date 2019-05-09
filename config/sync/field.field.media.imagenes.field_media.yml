@@ -1,0 +1,27 @@
+uuid: 4a9e0a2a-c8c5-46d3-a804-4bbb2a202c06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media
+    - media.type.imagenes
+id: media.imagenes.field_media
+field_name: field_media
+entity_type: media
+bundle: imagenes
+label: media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      imagenes: imagenes
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

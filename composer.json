@@ -26,6 +26,7 @@
         "drupal/devel": "^2.0",
         "drupal/juicebox": "^2.0@beta",
         "drupal/libraries": "^3.0@alpha",
+        "drupal/media_entity_browser": "2.x-dev",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",

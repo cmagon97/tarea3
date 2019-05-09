@@ -1,0 +1,28 @@
+uuid: 72c2079f-9e8e-4ff1-a937-6494ed2cfbb2
+langcode: en
+status: true
+dependencies: {  }
+name: imagen_browser
+label: 'Imagen Browser'
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  2efd22b7-a956-4b08-9de8-a61b48121e77:
+    settings:
+      extensions: 'jpg jpeg png gif'
+      media_type: imagenes
+      upload_location: 'public://'
+      multiple: '1'
+      submit_text: 'Select files'
+    uuid: 2efd22b7-a956-4b08-9de8-a61b48121e77
+    weight: 1
+    label: Image
+    id: media_image_upload

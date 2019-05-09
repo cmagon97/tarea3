@@ -1,0 +1,29 @@
+uuid: 7af34b54-dbfd-4c20-975f-843a75131cf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autor_libro
+    - node.type.libro
+    - taxonomy.vocabulary.autor
+id: node.libro.field_autor_libro
+field_name: field_autor_libro
+entity_type: node
+bundle: libro
+label: 'Autor libro'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      autor: autor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
